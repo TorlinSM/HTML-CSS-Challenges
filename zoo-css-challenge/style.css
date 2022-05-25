@@ -49,6 +49,7 @@ h1 {
 
 h2 {
   font-size: 175%;
+  
 }
 
 h3 {
@@ -104,18 +105,45 @@ footer {
   font-size: 125%;
 }
 
+.image-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+
 .image-container img {
   vertical-align: top;
   border: 5px solid #747c92;
+ 
 }
+
+
+
 
 .image-container img:first-of-type {
   vertical-align: bottom;
 }
 
+.image-container img:nth-child(1) {
+  border: 5px solid #19da49;
+}
+
+.image-container img:nth-child(2) {
+  border: 5px solid #ec5a16;
+}
+
+.image-container img:nth-child(3) {
+  border: 5px solid #a11c39;
+}
+
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
+}
+
+.tigers h2 {
+  color: #CCCCFF;
 }
 
 .giraffe {
